@@ -1,0 +1,89 @@
+*{
+    font-family: sans-serif;
+    color: #252525;
+}
+
+a {
+color: #252525;
+text-decoration: none;
+}
+
+.active {
+ color: #5dc6b0;
+}
+
+.docplanner-header {
+    display: flex;
+    justify-content: space-around;
+}
+.docplanner-logo img {
+    display: flex;
+    padding-left: 15%;
+    width: 25%;
+}
+.header-menu {
+    padding-right: 15%;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.introduction-logo img{
+    width: 50px;
+    height: 50px;
+}
+.introduction-title {
+    color: #5dc6b0;
+}
+.introduction-text {
+    display: flex;
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.service-card-title {
+    color: white;
+}
+.service-card-for {
+color: white;
+}
+.service-card-patient {
+    width: 50%;
+   background-color: #5dc6b0;
+   padding: 20px;
+   border-radius: 8px;
+   color: white;
+   margin: 10px;
+}
+.service-card-doctor {
+    width: 50%;
+   background-color: #3d83df;
+   padding: 20px;
+   border-radius: 8px;
+   color: white;
+   margin: 10px;
+}
+.service-card-select {
+    padding: 5px 10px;
+    border-radius: 5px; 
+    text-decoration: underline;
+} 
+
+.cardss {
+flex-direction: column;
+}   
+.country-cards{
+    width: 25%;
+    border-radius: 5%;
+}
+.footer {
+    text-align: center;
+}
+.footer2 {
+    background-color: #3d83df
+}
+
